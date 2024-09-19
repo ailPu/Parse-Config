@@ -1,0 +1,21 @@
+{
+	"name": "@dummy-hokify/jobmodule-post",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "jobmodule post",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"ts-morph": "^23.0.0",
+		"@dummy-hokify/integration-helpers": "^1.0.0"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.2"
+	}
+}
