@@ -1,12 +1,11 @@
 {
 	"name": "@dummy-hokify/jobmodule-post",
 	"version": "1.0.0",
-	"type": "module",
 	"description": "jobmodule post",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
-		"dist"
+		"dist/**/*"
 	],
 	"scripts": {
 		"build": "tsc"

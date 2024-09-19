@@ -29,3 +29,5 @@ export function createVueSchemaFromConfig(interfaceDeclaration: InterfaceDeclara
 	console.log(JSON.stringify(schema, null, 2));
 	return schema;
 }
+
+console.log("ASDASD")
