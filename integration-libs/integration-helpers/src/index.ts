@@ -1,1 +1,1 @@
-export * from './CreateVueSchemaFromConfig'
+export { createVueSchemaFromConfig } from './CreateVueSchemaFromConfig';

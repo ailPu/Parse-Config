@@ -1,6 +1,7 @@
 {
 	"name": "@dummy-hokify/integration-helpers",
 	"version": "1.0.4",
+	"type": "module",
 	"license": "ISC",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

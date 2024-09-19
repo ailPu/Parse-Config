@@ -1,7 +1,7 @@
 import { InterfaceDeclaration } from 'ts-morph';
 
 export function createVueSchemaFromConfig(interfaceDeclaration: InterfaceDeclaration) {
-	const schema = {};
+	const schema :any= {};
 
 	// Iterate over the properties of the interface
 	interfaceDeclaration.getProperties().forEach(prop => {
