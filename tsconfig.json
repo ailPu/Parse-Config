@@ -7,6 +7,9 @@
 		"lib": ["es2019", "dom"],
 
 		// other best practice configs
+		"outDir": "dist",      // Output directory for compiled files
+		"rootDir": "src",      // Root directory of source files
+		"esModuleInterop": true,
 		"moduleResolution": "node",
 		"strict": true,
 		"noImplicitAny": false, // <-- get rid of this!
