@@ -10,7 +10,17 @@ export function createVueSchemaFromConfig(interfaceDeclaration: InterfaceDeclara
 		const isOptional = prop.hasQuestionToken();
 
 		// Map TypeScript types to JSON Schema types
-		// extend to handle different types and adapt for vue-generator (
+		// extend to handle different types and adapt for vue-generator
+		// https://github.com/vue-generators/vue-form-generator?tab=readme-ov-file#usage
+		//              {
+		//             type: 'input',
+		//             inputType: 'text',
+		//             label: 'Name',
+		//             model: 'name',
+		//             placeholder: 'Your name',
+		//             featured: true,
+		//             required: true
+		//           },
 		let fieldType = '';
 		if (type === 'string' || type === 'string | undefined') {
 			fieldType = 'string';
